@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/brands.css">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/solid.css">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/fontawesome.css">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/duotone.css">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/regular.css">
+    <link rel="stylesheet" href="./fontawesome-pro-5.15.3-web/css/light.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>BUZZER CLOTHESHOPS</title>
+</head>
+<body>
+    <div id="container">
+        <div class="clothing">
+            <!-- <img src="./haimomlogo.png" alt="" class="haimom-logo animate__animated animate__fadeInRight"> -->
+            <div class="_title">
+                <h3>CLOTHES SHOP</h3>
+                <h6><span style="color: rgba(246, 240, 255, 0.321);">Owner</span> none</h6>            
+            </div>
+            <div class="_hint">
+                <div class="hint__wrapper">
+                    <i class="fas fa-question"></i>
+                    <div class="_hr"></div>
+                    <div class="flex-col" style="line-height: 2.4vh; text-transform: uppercase;">
+                        <h4 style="color: rgba(246, 240, 255, 0.321); font-family: 'Montserrat', sans-serif !important;">Hint</h4>
+                        <h2 style="font-family: 'Montserrat', sans-serif !important;">Use left and right arrows </h2>
+                        <h2 style="font-family: 'Montserrat', sans-serif !important;">To rotate the camera</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="_left">
+                <div class="_slot animate__animated animate__fadeIn" id="hats" data-focus="head">
+                    <h4>Hat</h4>
+                    <span><i class="icon icon-hat"></i></span>
+                </div>
+                <div class="_space animate__animated animate__fadeIn animate__delay-1s"></div>
+                <div class="_slot animate__animated animate__fadeIn animate__delay-2s" id="tops" data-focus="up_body">
+                    <h4>Shirt</h4>
+                    <span><i class="icon icon-jacket"></i></span>
+                </div>
+                <div class="_space animate__animated animate__fadeIn animate__delay-3s"></div>
+                <div class="_slot animate__animated animate__fadeIn animate__delay-4s" id="undershirts" data-focus="up_body">
+                    <h4>Tshirt</h4>
+                    <span><i class="icon icon-tshirt"></i></span>
+                </div>
+            </div>
+            <div class="_center">
+                <i class="fal fa-chevron-left animate__animated animate__fadeIn animate__delay-5s" id = "prev"></i>
+                <i class="fal fa-chevron-right animate__animated animate__fadeIn animate__delay-6s" id = "next"></i>
+            </div>
+            <div class="_right">
+                <div class="_slot animate__animated animate__fadeIn animate__delay-7s" id="legs" data-focus="low_body">
+                    <h4>Pants</h4>
+                    <span><i class="icon icon-pants"></i></span>
+                </div>
+                <div class="_space animate__animated animate__fadeIn animate__delay-8s"></div>
+                <div class="_slot animate__animated animate__fadeIn animate__delay-9s" id="shoes" data-focus="foot">
+                    <h4>Shoes</h4>
+                    <span><i class="icon icon-shoes"></i></span>
+                </div>
+                <div class="_space animate__animated animate__fadeIn animate__delay-10s"></div>
+                <div class="_slot animate__animated animate__fadeIn animate__delay-11s" id="torsos" data-focus="up_body">
+                    <h4>Gloves</h4>
+                    <span><i class="icon icon-glove"></i></span>
+                </div>
+            </div>
+            <div class="footer">
+                <h1 class="animate__animated animate__fadeIn animate__delay-12s" id="label">NILLL</h1>
+                <h4 class="animate__animated animate__fadeIn animate__delay-13s">Price</h4>
+                <h1 class="animate__animated animate__fadeIn animate__delay-14s" id="price">$ 10</h1>
+                <div class="_texture">
+                    <div class="_btn animate__animated animate__fadeIn animate__delay-15s"  id="prev">
+                        <i class="fal fa-chevron-left"></i>    
+                    </div>
+                    <div class="_content animate__animated animate__fadeIn animate__delay-16s" id="index">0</div>
+                    <div class="_btn animate__animated animate__fadeIn animate__delay-17s"  id="next">
+                        <i class="fal fa-chevron-right"></i>    
+                    </div>
+                </div>
+                <div class="_buy animate__animated animate__fadeIn animate__delay-18s">
+                    <div class="_btn" id = "buy">
+                        Buy
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./fivem.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
