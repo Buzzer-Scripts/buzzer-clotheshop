@@ -8,7 +8,7 @@ Free ClotheShop Script With Clean UI
 # Dependencies
 * [Core Framework](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
 * [Rep-TalkToNPC](https://github.com/Rep-Scripts/rep-talkNPC)
-* [Buzzer-Outfit]
+* Buzzer-Outfit (Included On The File)
 
 # Installation
 * **Install all the dependencies**
